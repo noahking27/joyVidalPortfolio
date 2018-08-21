@@ -3,6 +3,19 @@
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
+#joyPic {
+  width: 100%;
+  height: auto;
+}
+
+#motivationalSpeech {
+  text-align: center;
+}
+
+#contactInstructions {
+  color: white;
+}
+
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -170,8 +183,8 @@ img::-moz-selection {
 
 header.masthead {
   text-align: center;
-  color: black;
-  background-image: url("../img/background.jpeg");
+  color: white;
+  background-image: url("../img/forest2.jpeg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -187,11 +200,10 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
+  font-family: 'Merienda', cursive;
   font-size: 22px;
-  font-style: italic;
   line-height: 22px;
   margin-bottom: 25px;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 header.masthead .intro-text .intro-heading {
@@ -209,10 +221,9 @@ header.masthead .intro-text .intro-heading {
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
-    font-style: italic;
     line-height: 40px;
     margin-bottom: 25px;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Merienda', cursive;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;

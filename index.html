@@ -15,6 +15,7 @@
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -58,8 +59,8 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-lead-in">Joy Long-Vidal LPC, TTS</div>
-          <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
+          <div class="intro-heading text-uppercase">Joy Long-Vidal LPC, TTS</div>
+          <div class="intro-lead-in">You have the power to change your path, let’s take the first steps</div>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
         </div>
       </div>
@@ -71,12 +72,9 @@
       <div class="container">
         <div class="row">
             <div class="col-lg-6" id="mastheadLeft">
-              <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/joy1.jpg" alt="">
+              <img class="mx-auto" id="joyPic" src="img/team/joy1.jpg" alt="">
             </div>
-              <h4 class="service-heading">Joy Long-Vidal LPC, TTS</h4>
-            </div>
-            <div class="col-lg-6">
+            <div id="motivationalSpeech" class="col-lg-6">
               <p>It is simple, I want to see you step into your power.</p>
               <p>You are not defined by your past.</p>
               <p>You are not defined by your addiction.</p>
@@ -145,7 +143,7 @@
             <div class="row">
               <div class="col-sm-12">
                 <div class="team-member">
-                  <img class="mx-auto rounded-circle" src="img/team/joy2.jpg" alt="">
+                  <img class="mx-auto" src="img/team/joy2.jpg" alt="">
                   <h4>Joy Long-Vidal, LPC, TTS</h4>
                   <p class="text-muted">
                     Psychotherapy for Individuals, Couples, and Families
@@ -214,41 +212,13 @@
         </div>
     </section> -->
 
-    <!-- Clients -->
-    <section class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Portfolio Grid -->
     <section class="bg-light" id="resources">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Helpful Information / Resources</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
           </div>
         </div>
         <div class="row">
@@ -291,6 +261,7 @@
               <h4>National Institute of Mental Health</h4>
             </div>
           </div>
+          <!-- LOOK AT THIS EXAMPLE BELOW FOR EXTRA FUNCTIONALITY IF NEEDED -->
           <!-- <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
               <div class="portfolio-hover">
@@ -316,7 +287,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Contact Us</h2>
-            <h3 class="section-subheading text-muted">
+            <h3 class="section-subheading" id="contactInstructions">
               Call <a href="tel:919-808-2021">919-808-2021</a> to discuss scheduling an appointment.
               <br>
               You may also fill out the form below (please create a contact form). Please include your phone number and a good time that you may be reached.

@@ -1,4 +1,17 @@
 // Global styling for this template
+#joyPic {
+  width: 100%;
+  height: auto;
+}
+
+#motivationalSpeech {
+  text-align: center;
+}
+
+#contactInstructions {
+  color: white;
+}
+
 body {
   overflow-x: hidden;
   @include body-font;
