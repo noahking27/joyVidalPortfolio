@@ -16,8 +16,16 @@
   color: white;
 }
 
+.customText {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 .whiteSmoke {
   background-color: whiteSmoke;
+}
+
+.headerPadding {
+  padding-top: 2em;
 }
 
 body {
@@ -188,7 +196,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/forest2.jpeg");
+  background-image: url("../img/trail.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -204,10 +212,10 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
-  font-family: 'Merienda', cursive;
+  font-family: 'Merienda One', cursive;
   font-size: 22px;
   line-height: 22px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 }
 
 header.masthead .intro-text .intro-heading {
@@ -227,7 +235,7 @@ header.masthead .intro-text .intro-heading {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 25px;
-    font-family: 'Merienda', cursive;
+    font-family: 'Merienda One', cursive;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
