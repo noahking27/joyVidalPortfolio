@@ -4,12 +4,17 @@
   height: auto;
 }
 
-.alignCenter {
-  text-align: center;
-}
-
 #contactInstructions {
   color: white;
+}
+
+#psychologyToday {
+  display: inline-block !important;
+  margin-top: 5px;
+}
+
+.alignCenter {
+  text-align: center;
 }
 
 .customText {
